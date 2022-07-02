@@ -30,6 +30,7 @@ function resetGame() {
   pickColors();
   var pickedColor = random(n);
   rgbEl.innerHTML = colors[pickedColor];
+
   setColors();
   statusEl.innerHTML =
     "Try to guess the right color based on the RGB value by clicking on the blocks.";
